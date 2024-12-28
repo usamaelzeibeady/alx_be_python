@@ -20,6 +20,6 @@ def daily_reminder():
     else:
         reminder += " (Invalid input for time-bound status)."
 
-    print(reminder)
+    print(f"Reminder: {reminder}")
 
 daily_reminder()
